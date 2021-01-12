@@ -23,9 +23,9 @@ void set_rows_coloums_quad()
             if(arr[i][j])
             {
                 t=arr[i][j];
-                rows[i][t-1]=1;
-                coloums[t-1][j]=1;
-                quad[t1+(j/3)][t-1]=1;
+                rows[i][t-1]++;
+                coloums[t-1][j]++;
+                quad[t1+(j/3)][t-1]++;
             } 
             else
             {
